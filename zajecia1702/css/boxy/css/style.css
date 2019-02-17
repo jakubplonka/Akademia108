@@ -6,28 +6,28 @@
 
 .pierwszy {
     background-color: red;
+    transition: all 0.5s ease-in-out;
 }
 
 .pierwszy:hover {
     width: 300px;
-    transition: width 3s ease-in-out;
 }
 
 .drugi {
     background-color: green;
+    transition: all 0.5s ease-in-out;
 }
 
 .drugi:hover {
     height: 300px;
-    transition: height 3s ease-in-out;
 }
 
 .trzeci {
     background-color: blue;
+    transition: all 0.5s ease-in-out;
 }
 
 .trzeci:hover {
     height: 300px;
     width: 300px;
-    transition: all 3s ease-in-out;
 }
