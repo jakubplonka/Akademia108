@@ -9,8 +9,6 @@ form {
     color: #d8d4d4;
     padding-left: 10px;
     padding-top: 10px;
-    /* display: flex;
-    flex-direction: column; */
 }
 label {
     width: 100%;
@@ -60,5 +58,6 @@ input[type="submit"] {
     height: 50px;
     font-size: 20px;
     font-weight: bold;
-    background-color: #4ee92f
+    background-color: #4ee92f;
+    margin: 10px auto;
 }
