@@ -2,6 +2,7 @@
     color: red;
 }
 
+
 div.connected p {
     color: greenyellow
 }
@@ -65,4 +66,32 @@ input[title^="pierw"] {
 
 input[title$="ni"] {
     border: 2px solid grey;
+}
+
+.relative {
+    position: relative;
+}
+.orange,
+.grey {
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.grey {
+    background-color: grey;
+}
+
+#nav-main {
+    position: sticky;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
 }

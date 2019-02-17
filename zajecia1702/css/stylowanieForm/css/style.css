@@ -2,11 +2,9 @@ form {
     background-color: #213b50;
     width: 50%;
     color: #d8d4d4;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 10px;
 }
 label {
-    width: 100%;
     display: block;
 
 }
@@ -16,10 +14,9 @@ textarea {
     background-color: #2b4a64;
     width: 50%;
     height: 20px;
-    padding: 2px;
+    padding: 5px;
     margin-bottom: 8px;
     margin-top: 2px;
-    /* margin: 5px auto; */
     color: #d8d4d4;
     font-size: 15px;
     border: 1px solid transparent;
@@ -27,7 +24,8 @@ textarea {
 }
 
 textarea:focus,
-input:focus {
+input:focus,
+select:focus {
     background-color: #4e708c;
     border: 1px solid #ffffff;
     outline: 0;
@@ -67,3 +65,4 @@ input[type="submit"] {
     color: #ffffff;
     text-transform: uppercase;
 }
+
