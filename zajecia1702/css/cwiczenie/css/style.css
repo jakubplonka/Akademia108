@@ -1,0 +1,68 @@
+* {
+    color: red;
+}
+
+div.connected p {
+    color: greenyellow
+}
+
+div.connected p::before {
+    content: 'cokolwiek ';
+    color: red;
+}
+
+div.connected p::after {
+    content: 'cokolwiek ';
+    color: red;
+}
+
+.hover a {
+    color: green;
+    text-decoration: none;
+}
+
+.hover a:hover {
+    color: blue;
+    background-color: red;
+}
+
+form input:focus{
+    border: 2px solid brown;
+    outline: none;
+}
+
+ul li:first-child {
+    color: violet;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+ul li:nth-of-type(1n+3) {
+    color: black;
+}
+
+input[title] {
+    border: 2px solid black;
+}
+
+input[title="szosty"] {
+    border: 2px solid violet;
+}
+
+input[title~="input"] {
+    border: 2px solid rgb(100, 72, 100);
+}
+
+input[title*="opis"] {
+    border: 2px solid rgb(53, 108, 129);
+}
+
+input[title^="pierw"] {
+    border: 2px solid grey;
+}
+
+input[title$="ni"] {
+    border: 2px solid grey;
+}
