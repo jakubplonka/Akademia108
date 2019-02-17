@@ -1,0 +1,11 @@
+@media all and (max-width: 768px) {
+    .orange {
+        height: 70vh;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .orange {
+        height: 50vh;
+    }
+}
