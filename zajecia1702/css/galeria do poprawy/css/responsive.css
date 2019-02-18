@@ -1,0 +1,6 @@
+@media all and (max-width: 468px;) {
+    #gallery,
+    figure {
+        width: 100%;
+    }
+}
