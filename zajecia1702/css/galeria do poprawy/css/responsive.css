@@ -1,4 +1,24 @@
-@media all and (max-width: 468px;) {
+@media (min-width: 758px) and (max-width: 992px) {
+    #gallery {
+        width: 100%;
+    }
+
+    figure {
+        width: 49%;
+    }
+}
+
+@media (min-width: 469px) and (max-width: 758px) {
+    #gallery {
+        width: 100%;
+    }
+
+    figure {
+        width: 75%;
+    }
+}
+
+@media (max-width: 468px) {
     #gallery,
     figure {
         width: 100%;
