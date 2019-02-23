@@ -4,16 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Jakub Płonka</title>
 </head>
 <body>
-    <header>
-        <h1 class="header-napis">front end developer</h1>
-        <hr class="linia">
-        <p class="header-paragraf"></p>
-        <button class="button">dowiedz się więcej</button>
+    <header id="header">
+        <h1>front end developer</h1>
+        <hr>
+        <p class="header-paragraf">HTML <span>&#8226;</span> CSS <span>&#8226;</span> JavaScript</p>
+        <a href="#o-mnie"><button class="button">dowiedz się więcej</button></a>    
     </header>
+    <nav id="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#o-mnie">o mnie</a></li>
+            <li class="nav-item"><a href="#portfolio">portfolio</a></li>
+            <li class="nav-item"><a href="#kontakt">kontakt</a></li>
+        </ul>
+    </nav>
+    <section id="o-mnie">
+        <h2>o mnie</h2>
+        <hr>
+        <figure>
+            <img src="./img/about.jpg" alt="" class="o-mnie-img">
+        </figure>
+        <p class="o-mnie-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quasi. Molestiae vel excepturi totam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nulla in blanditiis distinctio voluptatum veniam tempora, reiciendis nostrum asperiores deleniti.</p>
+        <p class="o-mnie-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut, similique deserunt dignissimos sint ullam quas quis sequi numquam nisi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum recusandae sit incidunt aperiam vero, excepturi cupiditate quos ad odit inventore tempora sunt deleniti laboriosam saepe harum iure dolore exercitationem maxime?</p>
+        <a href="#portfolio"><button class="button">moje portfolio</button></a>
+    </section>
+    <section id="portfolio">
+        <h2>portfolio</h2>
+        <hr>
+        <div class="gallery">
+            <figure class="gallery-item"><img src="./img/portfolio/photo-1.jpg" alt="photo-1">
+            <figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-2.jpg" alt="photo-2"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-3.jpg" alt="photo-3"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-4.jpg" alt="photo-4"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-5.jpg" alt="photo-5"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-6.jpg" alt="photo-6"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-7.jpg" alt="photo-7"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-8.jpg" alt="photo-8"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-9.jpg" alt="photo-9"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-10.jpg" alt="photo-10"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-11.jpg" alt="photo-11"><figcaption>projekt</figcaption></figure>
+            <figure class="gallery-item"><img src="./img/portfolio/photo-12.jpg" alt="photo-12"><figcaption>projekt</figcaption></figure>
+        </div>
+
+    </section>
+
 </body>
 </html>
