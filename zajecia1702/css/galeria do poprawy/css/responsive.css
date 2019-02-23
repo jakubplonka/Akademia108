@@ -1,3 +1,13 @@
+@media all and (min-width: 993px){
+    #gallery {
+        width: 100%;
+    }
+
+    figure {
+        width: 33%;
+    }
+}
+
 @media (min-width: 758px) and (max-width: 992px) {
     #gallery {
         width: 100%;
