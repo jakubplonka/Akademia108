@@ -1,0 +1,13 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url('./img/header.jpg')
+}
