@@ -1,0 +1,23 @@
+#flex  {
+    height: 400px;
+    background-color: black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-content: space-evenly;
+}
+
+.flex-inner {
+    height: 100px;
+    background-color: red;
+    flex-basis: 25%;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.flex-inner:nth-child(5){
+    flex-grow: 1;
+    order: 1;
+    align-self: flex-end;
+}

@@ -95,3 +95,24 @@ input[title$="ni"] {
     width: 100%;
     background-color: #ffffff;
 }
+
+
+.scale {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: skaluj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.19,-0.93,1,-0.56);
+}
+
+@keyframes skaluj {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+}
