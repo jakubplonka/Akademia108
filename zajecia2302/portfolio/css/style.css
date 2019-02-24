@@ -1,12 +1,12 @@
 * {
-    font-size: 10px
+    font-size: 10px;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
     padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
 }
 
 header {
@@ -69,6 +69,11 @@ button:focus {
     outline: none;
 }
 
+.dropdown,
+#drop {
+    display: none;
+}
+
 #nav {
     background-color: #007bff;
     position: sticky;
@@ -90,7 +95,7 @@ button:focus {
 }
 
 
-.nav-list a {
+.nav-item a {
     text-decoration: none;
     height: 10vw;
     text-transform: uppercase;
@@ -100,6 +105,7 @@ button:focus {
     padding: 1rem;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
 
 a:hover {
     color: #007bff;
@@ -131,6 +137,7 @@ h2 {
     align-items: center;
     flex-basis: 100%;
     margin-top: 100px;
+    width: 100%;
 }
 
 .o-mnie-paragraf {
@@ -231,7 +238,7 @@ input {
     padding: 0.5rem;
     flex-basis: content;
     width: 47%;
-    border: 1px solid rgb(177, 177, 177)
+    border: 1px solid rgb(177, 177, 177);
 }
 
 input:focus {
