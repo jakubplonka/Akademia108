@@ -76,6 +76,7 @@ button:focus {
 
 #nav {
     background-color: #007bff;
+    position: -webkit-sticky;
     position: sticky;
     display: flex;
     justify-content: center;
