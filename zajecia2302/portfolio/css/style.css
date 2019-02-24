@@ -88,9 +88,9 @@ button:focus {
     padding: 0;
     display: flex;
     list-style-type: none;
-    flex-basis: 50%;
+    flex-basis: 60%;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     flex-wrap: wrap;
 }
 
@@ -127,8 +127,9 @@ h2 {
     font-weight: 300;
     flex-basis: 100%;
     margin-bottom: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
+
 
 .o-mnie-img {
     border: 1px solid transparent;
@@ -154,10 +155,6 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#portfolio h2 {
-    padding-top: 50px;
 }
 
 .gallery {
@@ -213,7 +210,7 @@ figcaption:hover {
     height: 100%;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 10vh;
     font-weight: 100;
 }
 
@@ -228,15 +225,14 @@ figcaption:hover {
 form {
     width: 50%;
     display: flex;
-    margin: 10rem auto;
+    margin: 5rem auto;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 input {
-    height: 2rem;
-    padding: 0.5rem;
-    flex-basis: content;
+    padding: 1rem;
+    flex-basis: 48%;
     width: 47%;
     border: 1px solid rgb(177, 177, 177);
 }
@@ -258,21 +254,20 @@ textarea:focus {
 }
 
 form button {
-    margin: auto;
+    margin:  1rem auto;
     padding: 2rem;
-    /* width: 10rem; */
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 40vw;
 }
 
 .fab {
     color: #0556ac;
     margin: 4rem auto;
-    font-size: 5rem;
+    font-size: 6vw;
 }
 
 footer {
