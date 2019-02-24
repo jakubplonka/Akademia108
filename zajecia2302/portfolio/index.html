@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Jakub Płonka</title>
 </head>
 <body>
@@ -50,8 +51,25 @@
             <figure class="gallery-item"><img src="./img/portfolio/photo-11.jpg" alt="photo-11"><figcaption>projekt</figcaption></figure>
             <figure class="gallery-item"><img src="./img/portfolio/photo-12.jpg" alt="photo-12"><figcaption>projekt</figcaption></figure>
         </div>
-
     </section>
-
+    <section id="kontakt">
+        <h2>kontakt</h2>
+        <hr>
+        <form action="https://formspree.io/slomkas@gmail.com" method="POST">
+            <input type="text" placeholder="Imię" id="name">
+            <input type="email" placeholder="Email" id="mail">
+            <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+            <button type="submit" class="button">wyślij wiadomość</button>
+        </form>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; by Jakub Płonka</p>
+    </footer>
 </body>
 </html>
