@@ -35,6 +35,7 @@ nav ul li a{
 header {
     height: 100vh;
     background: url('../img/header-background.jpg');
+    background-size: cover;
     /* position: relative; */
     display: flex;
     flex-direction: column;
