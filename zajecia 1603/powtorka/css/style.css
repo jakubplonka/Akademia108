@@ -1,0 +1,20 @@
+.container {
+    width: 50%
+}
+
+.container-inside h2 {
+    border: 3px solid blue;
+    border-radius: 15px;
+    margin: 0;
+    padding: 15px;
+}
+
+.container-inside p {
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.container-inside .display {
+    height: 50px;
+}
