@@ -1,2 +1,18 @@
 body {
   color: #995678; }
+
+nav {
+  background-color: aliceblue; }
+  nav ul li {
+    background-color: orange; }
+    nav ul li a {
+      color: #220000; }
+
+.test button {
+  background-color: lightyellow;
+  border-radius: 4px;
+  font-size: 31px;
+  padding: 5px;
+  border: none; }
+  .test button:hover {
+    background-color: blue; }

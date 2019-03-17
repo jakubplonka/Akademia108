@@ -1,5 +1,27 @@
 @import "variables";
+@import "mixins";
 
 body {
-    color: $secondary-color;
+	color: $secondary-color;
+}
+
+nav {
+	background-color: aliceblue;
+	ul {
+		li {
+			background-color: orange;
+			a{
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+.test{
+	button{
+		@include btn-primary;
+		&:hover{
+			background-color: blue;
+		}
+	}
 }
