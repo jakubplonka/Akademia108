@@ -1,0 +1,44 @@
+header {
+  position: absolute;
+  width: 100%;
+  padding-top: 10px; }
+  header .wrapper {
+    display: flex;
+    width: 1170px;
+    justify-content: space-around;
+    margin: 0 auto; }
+    header .wrapper .logo {
+      font-size: 2rem; }
+      header .wrapper .logo .fa-landmark {
+        color: #ecd407; }
+    header .wrapper .logo-number {
+      display: flex; }
+      header .wrapper .logo-number--icon {
+        font-size: 2rem;
+        margin: 5px;
+        font-weight: 700;
+        transform: rotate(90dag); }
+      header .wrapper .logo-number--text {
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        font-size: .7rem;
+        margin: 5px;
+        align-content: center; }
+        header .wrapper .logo-number--text span {
+          font-size: 1rem; }
+
+body, * {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  color: #eeeeee; }
+
+.form-section {
+  background: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  min-height: 700px; }

@@ -1,0 +1,6 @@
+@mixin wrapper {
+  display: flex;
+  width: 1170px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
