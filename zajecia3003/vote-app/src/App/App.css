@@ -1,0 +1,6 @@
+
+.form-container,
+.list-container {
+  display: flex;
+  justify-content: space-around;
+}
