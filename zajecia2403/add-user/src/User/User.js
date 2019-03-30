@@ -33,23 +33,6 @@ class User extends Component {
     })
   }
 
-  filterUsers = (e) => {
-    const {value} = e.target;
-    const filteredList = this.state.usersList.filter((el) => {
-      return el.name.toLowerCase().includes(value);
-    });
-
-    if (filteredList.length === 0 && value) {
-      this.setState({
-        filteredUsers: [{name: 'No users found... :(', key: Date.now()}]
-      })
-      return
-    }
-    this.setState({
-      filteredUsers: filteredList
-    })
-    
-  }
   render() {
     const { usersList, filteredUsers, value} = this.state;
     return(
@@ -59,7 +42,6 @@ class User extends Component {
           addNewUser={this.addNewUser}
           value={value}
         />
-        <input onChange={this.filterUsers} placeholder="text..."></input> 
         <List user={filteredUsers.length > 0 ? filteredUsers : usersList}/>
       </div>
     )
