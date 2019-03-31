@@ -1,0 +1,11 @@
+.currency {
+  text-align: center;
+  list-style: none;
+  width: 300px;
+  border: 1px solid rgb(71, 71, 71);
+  padding: 5px;
+}
+
+.currency span {
+  font-weight: bold;
+}
