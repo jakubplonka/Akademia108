@@ -2,8 +2,6 @@ import React from 'react';
 import './CryptoList.css'
 
 const CryptoList = props => {
-  console.log(props.currencyList);
-  
   const currencyArray = Object.keys(props.currencyList).map( keys => {
     let convertedCurrencyArray = {};
     convertedCurrencyArray.currency = keys;
