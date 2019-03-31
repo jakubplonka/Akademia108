@@ -5,7 +5,9 @@ const List = (props) => {
 
   return (
     <ul>
-      list
+      {props.user.map((el) => {
+        return <li key={el.key}>{el.name}</li>
+      })}
     </ul>
 
   )

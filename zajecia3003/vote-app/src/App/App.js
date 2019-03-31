@@ -13,18 +13,46 @@ class App extends Component {
       listAngular: []
     }
   }
-
+  
+  addValueReact = (value) => {
+    this.setState((prevState) => {
+      return {
+        listReact:[...prevState.listReact, 
+          {
+            key: Date.now(),
+            name: value
+          }
+        ]
+      }
+    })
+  }
+  addValueAngular = (value) => {
+    this.setState((prevState) => {
+      return {
+        listAngular:[...prevState.listAngular, 
+          {
+            key: Date.now(),
+            name: value
+          }
+        ]
+      }
+    })
+  }
   render() {
+    const { listReact, listAngular } = this.state;
     return (
       <div className="app">
-        <Display />
+        <Display 
+          reactValueLength={listReact.length}
+          angularValueLength={listAngular.length}
+        />
         <div className="form-container">
-          <Form />
-          <Form />
+          <Form setValue={this.addValueReact}/>
+          <Form setValue={this.addValueAngular}/>
         </div>
         <div className="list-container">
-          <List />
-          <List />
+          <List user={listReact}/>
+          <List user={listAngular}/>
         </div>
       </div>
       );

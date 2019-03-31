@@ -5,15 +5,22 @@ class Form extends Component {
   constructor() {
     super();
     this.inputValue = React.createRef();
-    console.log(this.inputValue);
     
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const { value } = this.inputValue.current;
+    if (!value) return;
+    this.props.setValue(value);
+    this.inputValue.current.value = '';
   }
 
   render () {
     return(
-      <form onSubmit={}>
-        <input />
-        <input type="submit" ref={this.inputValue}/>
+      <form onSubmit={this.handleSubmit}>
+        <input ref={this.inputValue}/>
+        <input type="submit" />
       </form>
     )
   }
